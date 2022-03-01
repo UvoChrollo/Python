@@ -34,4 +34,4 @@ jobs:
     - name: Test with pytest
       run: |
         echo "Doctest Running"
-        pytest . --doctest-modules
+        pytest . --doctest-modules --ignore=Bangkit
