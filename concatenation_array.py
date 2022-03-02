@@ -1,7 +1,7 @@
 from typing import List
 
 def concat_array(nums : List[int]) -> List[int]:
-    """_summary_
+    """Leetcode Problem -> Concatenation of Array
 
     >>> print(concat_array([1,2,1]))
     [1, 2, 1, 1, 2, 1]
