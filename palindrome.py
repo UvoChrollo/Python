@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def palindrome(word : str) -> bool:
     """
     >>> print(palindrome("rar"))
