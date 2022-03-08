@@ -1,4 +1,5 @@
-<center>
+<div align="center">
+
 | Nomor | Deskripsi Program |
 |:-----:|:-----------------:|
 |   1   |                   |
@@ -6,4 +7,5 @@
 |   3   |                   |
 |   4   |                   |
 |   5   |                   |
-</center>
+  
+</div>
