@@ -20,9 +20,6 @@ def mean(nums : List[int]) -> float:
 
     return sum(nums) / len(nums)
 
-a = 10
-print(mean(a))
-
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
