@@ -11,9 +11,6 @@ def mean(nums : List[int]) -> float:
 
     >>> print(mean([1, 2, 3]))
     2.0
-
-    >>> print(mean(10))
-    TypeError: Hanya menerima List
     """
     if type(nums) != list:
         raise TypeError("Hanya menerima List")
