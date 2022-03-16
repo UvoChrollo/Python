@@ -1,4 +1,4 @@
-from scipy.linalg import eigvals
+from scipy.linalg import eig
 import numpy as np
 
 def eigen_value(matrices : np.array) -> np.array:
@@ -10,10 +10,14 @@ def eigen_value(matrices : np.array) -> np.array:
     Returns:
         np.array: eigen value
 
-    >>> print(eigen_value(np.array([[1,2],[2,1]])))
+    >>> value, vector = eigen_value(np.array([[1,2],[2,1]]))
+    >>> print(value)
     [ 3.+0.j -1.+0.j]
+    >>> print(vector)
+    [[ 0.70710678 -0.70710678]
+     [ 0.70710678  0.70710678]]
     """
-    return eigvals(matrices)
+    return eig(matrices)
 
 if __name__ == '__main__':
     import doctest
