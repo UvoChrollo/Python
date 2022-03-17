@@ -10,7 +10,7 @@ def pythagoras_2d(vector : List[int]) -> float:
     else:
         return sum([arr * arr for arr in vector])**0.5
     
- def pythagoras_3d(vector : List[int]) -> float:
+def pythagoras_3d(vector : List[int]) -> float:
     """
     >>> print(pythagoras_3d([2,3,6]))
     7.0
