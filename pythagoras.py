@@ -1,3 +1,8 @@
+"""
+This equation, can be used to get length or magnitude of a vector
+https://lakschool.com/en/math/vectors/vector-length-or-magnitude
+"""
+
 from typing import List
 
 def pythagoras_2d(vector : List[int]) -> float:
