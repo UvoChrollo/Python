@@ -23,7 +23,7 @@ jobs:
         run: |
           echo "Mulai jalankan install requirement"
           python -m pip install --upgrade pip
-          pip install -r requirements.txt -r dev-requirements.txt
+          pip install -r requirements.txt -r py_req.txt
       - name: Format otomatis
         run: |
           echo "Mulai format otomatis"
