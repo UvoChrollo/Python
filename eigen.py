@@ -1,7 +1,8 @@
 from scipy.linalg import eig
 import numpy as np
 
-def eigen_value(matrices : np.array) -> np.array:
+
+def eigen_value(matrices: np.array) -> np.array:
     """Function to get eigen value
 
     Args:
@@ -19,6 +20,8 @@ def eigen_value(matrices : np.array) -> np.array:
     """
     return eig(matrices)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     import doctest
+
     doctest.testmod()
