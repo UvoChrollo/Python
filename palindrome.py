@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 def palindrome(word: str) -> bool:
-    """ is this word a palindrome ?
+    """is this word a palindrome ?
     >>> print(palindrome("rar"))
     True
 

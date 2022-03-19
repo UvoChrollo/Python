@@ -1,5 +1,5 @@
 def gaussian_sum(n: int) -> int:
-    """ Fungsi untuk menghitung penjumlahan gaussian
+    """Fungsi untuk menghitung penjumlahan gaussian
     >>> print(gaussian_sum(10))
     55
     

@@ -2,7 +2,7 @@ from typing import List
 
 
 def array_permutation(nums: List[int]) -> List[int]:
-    """ Leetcode Problem : Build Array from Permutation
+    """Leetcode Problem : Build Array from Permutation
 
     >>> print(array_permutation([5,0,1,2,3,4]))
     [4, 5, 0, 1, 2, 3]

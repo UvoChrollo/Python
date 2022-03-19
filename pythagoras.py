@@ -7,7 +7,7 @@ from typing import List
 
 
 def pythagoras(vector: List[int]) -> float:
-    """ get pythagoras
+    """get pythagoras
     >>> print(pythagoras([3,4]))
     5.0
     
