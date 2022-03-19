@@ -24,9 +24,7 @@ def vector_projection(ax : np.array, bx : np.array) -> List[int]:
     """
     if len(ax) != len(bx):
         raise ValueError("Unmatched length of vector")
-    else:
-        return (dp(ax, bx)/size(ax)**2)*ax
-        
+    return (dp(ax, bx)/size(ax)**2)*ax
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
