@@ -1,6 +1,7 @@
 import numpy as np
 
-def euclidean(p1 : np.array, p2 : np.array) -> float:
+
+def euclidean(p1: np.array, p2: np.array) -> float:
     """get the distance between p1 and p2
 
     Args:
@@ -17,6 +18,8 @@ def euclidean(p1 : np.array, p2 : np.array) -> float:
     """
     return round(np.linalg.norm(p1 - p2), 2)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

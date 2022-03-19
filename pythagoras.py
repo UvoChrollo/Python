@@ -6,7 +6,7 @@ https://lakschool.com/en/math/vectors/vector-length-or-magnitude
 from typing import List
 
 def pythagoras(vector : List[int]) -> float:
-    """
+    """ get pythagoras
     >>> print(pythagoras([3,4]))
     5.0
     

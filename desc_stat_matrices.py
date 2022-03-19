@@ -1,7 +1,7 @@
 import numpy as np
 
 def dsm(matrices : np.array) -> dict:
-    """
+    """ Function for get mean, median and std for every row and col in matrices
     >>> test = dsm(np.array([[1,2],[3,4]]))
     >>> print(test)
     {'row': {'mean': [1.5, 3.5], 'median': [1.5, 3.5], 'std': [0.5, 0.5]}, 'col': {'mean': [2.0, 3.0], 'median': [2.0, 3.0], 'std': [1.0, 1.0]}}

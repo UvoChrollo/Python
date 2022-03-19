@@ -4,7 +4,7 @@ import numpy as np
 from typing import List
 
 def scalar_projection(ax : np.array, bx : np.array) -> int:
-    """
+    """ get a scalar projection
     >>> ax = np.array([3, -4, 0])
     >>> bx = np.array([10, 5, 6])
     >>> print(scalar_projection(ax, bx))
@@ -16,7 +16,7 @@ def scalar_projection(ax : np.array, bx : np.array) -> int:
         raise ValueError("Unmatched length of vector")
         
 def vector_projection(ax : np.array, bx : np.array) -> List[int]:
-    """
+    """ get a vector projection
     >>> ax = np.array([3, -4, 0])
     >>> bx = np.array([10, 5, 6])
     >>> print(vector_projection(ax, bx))

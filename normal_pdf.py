@@ -1,8 +1,7 @@
 from numpy import pi, sqrt, exp
 
 def normal_pdf(x : int, mu : float = 0.0, sigma : float = 1.0) -> float:
-    """
-    Fungsi untuk menghitung normal probability density function
+    """Fungsi untuk menghitung normal probability density function
 
     Args:
         mu (float): rata-rata yang diketahui
