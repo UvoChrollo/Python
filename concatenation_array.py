@@ -1,6 +1,7 @@
 from typing import List
 
-def concat_array(nums : List[int]) -> List[int]:
+
+def concat_array(nums: List[int]) -> List[int]:
     """Leetcode Problem -> Concatenation of Array
 
     >>> print(concat_array([1,2,1]))
@@ -12,6 +13,8 @@ def concat_array(nums : List[int]) -> List[int]:
     nums.extend(nums2)
     return nums
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

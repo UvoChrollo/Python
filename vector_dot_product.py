@@ -22,4 +22,4 @@ def dot_cos(a: int, b: int, cosine: int = 0) -> int:
 if __name__ == "__main__":
     import doctest
 
-    doctest.testmod
+    doctest.testmod()

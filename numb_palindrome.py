@@ -1,4 +1,4 @@
-def numb_palindrome(nums : int) -> bool:
+def numb_palindrome(nums: int) -> bool:
     """is this number is Palindrome ?
 
     Args:
@@ -18,6 +18,8 @@ def numb_palindrome(nums : int) -> bool:
     """
     return str(nums) == str(nums)[::-1]
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

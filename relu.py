@@ -1,6 +1,7 @@
 from typing import Union
 
-def relu(num : Union[int, float]) -> Union[int, float]:
+
+def relu(num: Union[int, float]) -> Union[int, float]:
     """function for get relu activation function
 
     Args:
@@ -17,6 +18,8 @@ def relu(num : Union[int, float]) -> Union[int, float]:
     """
     return max(0, num)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     import doctest
+
     doctest.testmod()
