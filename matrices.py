@@ -1,5 +1,13 @@
 import numpy as np
 
+def scalar_multiplication(matrices : np.array, n : int) -> np.array:
+    """
+    >>> print(scalar_multiplication(np.array([[4,2],[2,5]]), 5))
+    [[20 10]
+     [10 25]]
+    """
+    return matrices * n
+
 def matrices_inversion(matrics : np.array) -> np.array:
     """Function to get invers by a matrices
 
