@@ -12,9 +12,7 @@ def scalar_projection(ax : np.array, bx : np.array) -> int:
     """
     if len(ax) == len(bx):
         return int(dp(ax, bx) / size(ax))
-    else:
-        raise ValueError("Unmatched length of vector")
-        
+    raise ValueError("Unmatched length of vector")
 def vector_projection(ax : np.array, bx : np.array) -> List[int]:
     """ get a vector projection
     >>> ax = np.array([3, -4, 0])
