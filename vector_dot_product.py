@@ -9,12 +9,9 @@ def dot_product(a : np.array, b : np.array) -> int:
     """
     return sum(a * b)
 
-def dot_cos(a : int = 1, b : int = 1, cosine : int = 0) -> int:
+def dot_cos(a : int, b : int, cosine : int = 0) -> int:
     """
     >>> print(dot_cos(6, 5, 60))
-    15
-
-    >>> print(dot_cos(30, 60))
     15
     """
     return int(a * b * cos(radians(cosine)))
