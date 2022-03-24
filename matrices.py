@@ -9,6 +9,13 @@ def scalar_multiplication(matrices: np.array, n: int) -> np.array:
     """
     return matrices * n
 
+def determinant(matrices: np.array) -> int:
+    """
+    >>> print(determinant(np.array([[2,5],[4,3]])))
+    -14
+    """
+    return int(np.linalg.det(matrices))
+
 
 def matrices_inversion(matrics: np.array) -> np.array:
     """Function to get invers by a matrices
