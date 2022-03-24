@@ -9,8 +9,9 @@ def scalar_multiplication(matrices: np.array, n: int) -> np.array:
     """
     return matrices * n
 
+
 def determinant(matrices: np.array) -> int:
-    """
+    """Function to get determinant of a matrices
     >>> print(determinant(np.array([[2,5],[4,3]])))
     -14
     """
